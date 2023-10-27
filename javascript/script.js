@@ -93,7 +93,6 @@ filters.forEach(function (el) {
       filters.forEach(tag => tag.classList.remove('active'));
       el.classList.add('active');
       filter = e.target.dataset.filter;
-      showNotification("Incomplete Task");
     
     }
     showTodos();
