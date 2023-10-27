@@ -9,6 +9,7 @@ let filter = '';
 
 showTodos();
 
+
 function getTodoHtml(todo, index) {
   if (filter && filter != todo.status) {
     return '';
